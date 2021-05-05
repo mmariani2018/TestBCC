@@ -32,6 +32,7 @@ namespace TestBCCAPP
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -61,11 +62,21 @@ namespace TestBCCAPP
             this.label1.TabIndex = 2;
             this.label1.Text = "hi";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(294, 111);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(110, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "my name is matt";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -81,6 +92,7 @@ namespace TestBCCAPP
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
